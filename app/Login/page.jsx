@@ -12,7 +12,6 @@ function FormPago() {
     return(
 
         <body>
-            <Heder></Heder>   
             <Heder></Heder>    
             <div className="pricing mt-100">
             <div class="container">
