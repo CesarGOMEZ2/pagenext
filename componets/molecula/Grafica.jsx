@@ -6,8 +6,7 @@ import Perfil from "./Perfil";
 function Grafica() {
     return(
         <div class="container-fluid py-5" id="skill">
-        <div class="container">
-            
+        <div class="container">            
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="skill mb-4">
@@ -37,15 +36,12 @@ function Grafica() {
                             <div class="progress-bar bg-danger" style={{width:"30%"}}></div>
                         </div>
                     </div>
-                    
                 </div>
                 <div class="col-md-6">
                     <Perfil></Perfil>
                 </div>
-            </div>
-           
+            </div>           
         </div>
-
     </div>
     )
 }

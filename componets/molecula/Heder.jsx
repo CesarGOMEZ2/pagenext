@@ -23,7 +23,7 @@ function Heder() {
                         />  
                         <Directorio    
                         msg="Estatus"
-                        direc="/Rutas"
+                        direc="/Login"
                         />          
                         <div class="flex justify-content-end flex-wrap">
                             <div class="flex align-items-center justify-content-center w-6rem h-3rem font-bold border-round m-1">
