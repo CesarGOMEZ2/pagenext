@@ -26,7 +26,7 @@ function WrapperHeder() {
             msg="Duck Check"
             />
             </h1>
-            </div>        
+        </div>        
         </div>
         <button
             className="navbar-toggler"
@@ -44,7 +44,7 @@ function WrapperHeder() {
             msg="Home"
             ></DirecLink>
             <DirecLink
-            src="Login"
+            src="Tabla"
             clase="nav-item nav-link"
             msg="Tablas"
             ></DirecLink>
