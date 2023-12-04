@@ -17,14 +17,14 @@ function About() {
         </div>
       <div className="col-lg-7">
         <div className="border-start border-5 border-primary ps-5 mb-5">
-          <h6 className="text-primary text-uppercase">About Us</h6>
+          <h6 className="text-primary text-uppercase">Acerca de Nosotros</h6>
           <h1 className="display-5 text-uppercase mb-0">
-            We Keep Your Pets Happy All Time
+          Mantenemos a sus amiguitos felices todo el tiempo, adaptándolos a su hábitat 
           </h1>
         </div>
         <h4 className="text-body mb-4">
-          Diam dolor diam ipsum tempor sit. Clita erat ipsum et lorem stet no
-          labore lorem sit clita duo justo magna dolore
+        Tecnología que contribuyen al 
+        bienestar animal en hábitats controlados, ¡Bienvenido!.
         </h4>
         <div className="bg-light p-4">
           <ul
@@ -43,7 +43,7 @@ function About() {
                 aria-controls="pills-1"
                 aria-selected="true"
               >
-                Our Mission
+                Misión 
               </button>
             </li>
             <li className="nav-item w-50" role="presentation">
@@ -57,7 +57,7 @@ function About() {
                 aria-controls="pills-2"
                 aria-selected="false"
               >
-                Our Vission
+                Visión 
               </button>
             </li>
           </ul>
@@ -69,13 +69,9 @@ function About() {
               aria-labelledby="pills-1-tab"
             >
               <p className="mb-0">
-                Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam
-                dolor diam ipsum et, tempor voluptua sit consetetur sit.
-                Aliquyam diam amet diam et eos sadipscing labore. Clita erat
-                ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                clita duo justo et tempor consetetur takimata eirmod, dolores
-                takimata consetetur invidunt magna dolores aliquyam dolores
-                dolore. Amet erat amet et magna
+              El Objetivo principal es mejorar el bienestar de pequeños especies dentro de hábitats, así como 
+              contribuir de manera significativa a las estrategias, proporcionando al habitat medicion de
+              temperatura, humedad y luz.
               </p>
             </div>
             <div
@@ -85,13 +81,7 @@ function About() {
               aria-labelledby="pills-2-tab"
             >
               <p className="mb-0">
-                Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam
-                dolor diam ipsum et, tempor voluptua sit consetetur sit.
-                Aliquyam diam amet diam et eos sadipscing labore. Clita erat
-                ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                clita duo justo et tempor consetetur takimata eirmod, dolores
-                takimata consetetur invidunt magna dolores aliquyam dolores
-                dolore. Amet erat amet et magna
+                Tempor fef efwef ewrfwerewre rewrewr ew
               </p>
             </div>
           </div>

@@ -10,9 +10,9 @@ function Service() {
       className="border-start border-5 border-primary ps-5 mb-5"
       style={{ maxWidth: 600 }}
     >
-      <h6 className="text-primary text-uppercase">Services</h6>
+      <h6 className="text-primary text-uppercase">Servicios</h6>
       <h1 className="display-5 text-uppercase mb-0">
-        Our Excellent Pet Care Services
+      Brindamos calidad, adaptabilidad y seguridad
       </h1>
     </div>
     <div className="row g-5">
@@ -29,13 +29,12 @@ function Service() {
             </Image> 
         </div> 
           <div>
-            <h5 className="text-uppercase mb-3">Pet Boarding</h5>
+            <h5 className="text-uppercase mb-3">Medicion de Teperatura</h5>
             <p>
-              Kasd dolor no lorem sit tempor at justo rebum rebum stet justo
-              elitr dolor amet sit
+              El aplicativo brinda o proporciona la temperatura en tiempo real dentro del hábitat.
             </p>
             <a className="text-primary text-uppercase" href="">
-              Read More
+              Leer Mas
               <i className="bi bi-chevron-right" />
             </a>
           </div>
@@ -54,13 +53,12 @@ function Service() {
             </Image> 
         </div> 
           <div>
-            <h5 className="text-uppercase mb-3">Pet Feeding</h5>
+            <h5 className="text-uppercase mb-3">Grafica</h5>
             <p>
-              Kasd dolor no lorem sit tempor at justo rebum rebum stet justo
-              elitr dolor amet sit
+              Proporciona Graficas de medicion, indica el estado de riesgos
             </p>
             <a className="text-primary text-uppercase" href="">
-              Read More
+              Leer Mas
               <i className="bi bi-chevron-right" />
             </a>
           </div>
@@ -79,13 +77,12 @@ function Service() {
             </Image> 
         </div> 
           <div>
-            <h5 className="text-uppercase mb-3">Pet Grooming</h5>
+            <h5 className="text-uppercase mb-3">Monitoreo de calidad de aire</h5>
             <p>
-              Kasd dolor no lorem sit tempor at justo rebum rebum stet justo
-              elitr dolor amet sit
+              El aplicativo proporciona la calida del aire dentro del hábitat.
             </p>
             <a className="text-primary text-uppercase" href="">
-              Read More
+              Leer Mas.
               <i className="bi bi-chevron-right" />
             </a>
           </div>
@@ -104,13 +101,12 @@ function Service() {
             </Image> 
         </div>          
           <div>
-            <h5 className="text-uppercase mb-3">Pet Training</h5>
+            <h5 className="text-uppercase mb-3">Monitoreo de la luz</h5>
             <p>
-              Kasd dolor no lorem sit tempor at justo rebum rebum stet justo
-              elitr dolor amet sit
+              El aplicativo brinda informacion y monitoreo de la luz
             </p>
             <a className="text-primary text-uppercase" href="">
-              Read More
+              Leer Mas
               <i className="bi bi-chevron-right" />
             </a>
           </div>
