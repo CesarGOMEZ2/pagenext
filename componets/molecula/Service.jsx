@@ -1,7 +1,35 @@
+'use client'
+
+import io from 'socket.io-client';
+
+import { useState, useEffect } from 'react';
+const socket = io('http://35.173.210.244:3002/directorio1');
+const socket2 = io('http://35.173.210.244:3002/directorio2');
 import "../../bootstrap/css/bootstrap.css";
 import "../../bootstrap/css/bootstrap.min.css";
 import Image from "next/image";
 function Service() {
+  const [mensajes, setMensajes] = useState([]);
+  const [mens, setMensajes2] = useState([]);
+
+  useEffect(() => {
+    // Escuchamos el canal "message" por el cual se emiten los datos desde el WebSocket
+    socket2.on('message', (data) => {
+      console.log("Soy los datos de Humedad: ", data);
+      // Almacenamos los datos en un estado para posteriormente presentarlos
+      setMensajes2((mens) => [...mens, data]);
+    });
+  }, []);
+
+  useEffect(() => {
+    // Escuchamos el canal "message" por el cual se emiten los datos desde el WebSocket
+    socket.on('message', (datahum) => {
+      console.log("Soy los datos de luz: ", datahum);
+      // Almacenamos los datos en un estado para posteriormente presentarlos
+      setMensajes((mensajes) => [...mensajes, datahum]);
+    });
+  }, []);
+
     return(
         <>
         <div className="container-fluid py-5">
@@ -53,14 +81,13 @@ function Service() {
             </Image> 
         </div> 
           <div>
-            <h5 className="text-uppercase mb-3">Grafica</h5>
+            <h5 className="text-uppercase mb-3">Medicion Humedad</h5>
             <p>
               Proporciona Graficas de medicion, indica el estado de riesgos
             </p>
-            <a className="text-primary text-uppercase" href="">
-              Leer Mas
-              <i className="bi bi-chevron-right" />
-            </a>
+            <ul>
+              <li key={mens.length - 1}>{mens.length > 0 ? mens[mens.length - 1] : "No hay mensajes humedad"}</li>
+           </ul>
           </div>
         </div>
       </div>
@@ -105,10 +132,9 @@ function Service() {
             <p>
               El aplicativo brinda informacion y monitoreo de la luz
             </p>
-            <a className="text-primary text-uppercase" href="">
-              Leer Mas
-              <i className="bi bi-chevron-right" />
-            </a>
+            <ul>
+              <li key={mensajes.length - 1}>{mensajes.length > 0 ? mensajes[mensajes.length - 1] : "No hay mensajes Luz"}</li>
+            </ul>
           </div>
         </div>
       </div>
